@@ -3,7 +3,7 @@ header {
     padding: 20px;
     text-align: center;
     color: red;
-    border-radius: 80px;  
+    border-radius: 80px;
 }
 
 img {
@@ -11,11 +11,13 @@ img {
     height: 100px;
     margin: 0 20px;
 }
+
 h3 {
     font-size: 26px;
     margin: 0;
     color: purple;
 }
+
 .traffic-light {
     width: 300px;
     height: 550px;
@@ -23,9 +25,9 @@ h3 {
     margin: 50px auto;
     border-radius: 20px;
     padding: 20px;
-   }
+}
 
-.light{
+.light {
     width: 100px;
     height: 100px;
     background-color: grey;
@@ -33,13 +35,27 @@ h3 {
     margin: 60px auto;
     ;
 }
+
 .red {
     background-color: red;
 }
+
 .yellow {
     background-color: yellow;
 }
+
 .green {
     background-color: green;
 }
 
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(170, 79, 182);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
