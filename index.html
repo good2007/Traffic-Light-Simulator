@@ -1,29 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--title shows the name of the project-->
     <title>Traffic Light Simulator</title>
     <!--link enables linking of html file with css files to activate styles applied to document-->
-    <link rel="stylesheet" href="styles.css">
-</head>
-<!--This is the main body carrying the content of the project-->
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <!--This is the main body carrying the content of the project-->
+  <body>
+    <!-- the header shows the title and subtitle of the project which gives an overview of the project -->
     <header>
-        <h1> KENYA NATIONAL HIGHWAYS AUTHORITY(KeNHA) <img src="IMAGES/KENYA.jpg" alt="">
- <img src="IMAGES/KENHA.jpg" alt="">  </h1>
-        <h3>Traffic Light Simulator Starehe Zebra Crossing Station</h3>
+      <h1>
+        KENYA NATIONAL HIGHWAYS AUTHORITY(KeNHA)
+        <img src="IMAGES/KENYA.jpg" alt="" />
+        <img src="IMAGES/KENHA.jpg" alt="" />
+      </h1>
+      <h3>Traffic Light Simulator Starehe Zebra Crossing Station</h3>
     </header>
     <main>
-        <div class="traffic-light">
-            <div class="light red"></div>
-            <div class="light yellow"></div>
-            <div class="light green"></div>
-        </div>
-        <button>Start Simulation</button> 
+      <div class="traffic-light">
+        <!-- These are the three light elements representing the red, yellow, and green lights of a traffic signal. Each light is styled with a specific background color to indicate its function in traffic control. The red light indicates "stop," the yellow light indicates "caution" or "prepare to stop," and the green light indicates "go." -->
+        <div class="light red"></div>
+        <div class="light yellow"></div>
+        <div class="light green"></div>
+      </div>
+      <!-- This is a button element that allows users to start the traffic light simulation. When clicked, it will trigger the JavaScript code to change the traffic light colors in a sequence that mimics real traffic signals. -->
+      <button>Start Simulation</button>
     </main>
-</body>
-<!--shows linking with the java script file-->
-<script src="script.js"></script>
+  </body>
+  <!--shows linking with the java script file-->
+  <script src="script.js"></script>
 </html>

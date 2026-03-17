@@ -1,3 +1,4 @@
+/* This is the CSS file for the traffic light simulator project. It contains styles for the header, traffic light, and button elements. */
 header {
     background-color: rgb(217, 226, 230);
     padding: 20px;
@@ -5,28 +6,28 @@ header {
     color: red;
     border-radius: 80px;
 }
-
+/*this is the style for the images in the header, setting their width, height, and margin */
 img {
     width: 100px;
     height: 100px;
     margin: 0 20px;
 }
-
+/* This is the style for the main title of the project, setting the font size, margin, and color */
 h3 {
     font-size: 26px;
     margin: 0;
     color: purple;
 }
-
+/* This is the style for the traffic light container, setting its width, height, background color, margin, border radius, and padding */
 .traffic-light {
     width: 300px;
     height: 550px;
-    background-color: black;
+    background-color: #0a0a0a;
     margin: 50px auto;
     border-radius: 20px;
     padding: 20px;
 }
-
+/* This is the style for the light elements, setting their width, height, background color, border radius, and margin */
 .light {
     width: 100px;
     height: 100px;
@@ -35,19 +36,22 @@ h3 {
     margin: 60px auto;
     ;
 }
-
+/* These are the styles for the red, yellow, and green light elements, setting their background colors accordingly */
 .red {
     background-color: red;
+    color: rgb(126, 203, 223);
 }
-
+/* The yellow light is styled with a yellow background color to represent amber which means "get ready to proceed" */
 .yellow {
     background-color: yellow;
+    color: rgb(85, 196, 190);
 }
-
+/* The green light is styled with a green background color to represent "go" which means it's safe for vehicles to proceed through the intersection */
 .green {
     background-color: green;
+    color: rgb(83, 172, 172);
 }
-
+/* This is the style for the button element, setting its display, margin, padding, font size, background color, text color, border, border radius, and cursor */
 button {
     display: block;
     margin: 20px auto;
